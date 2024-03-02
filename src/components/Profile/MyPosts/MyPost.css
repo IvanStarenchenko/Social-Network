@@ -1,0 +1,48 @@
+  .profile__post{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin: 50px 25px 15px 25px;
+  }
+.post-title{
+    font-size: 24px;
+    letter-spacing: 1.5px;
+  }
+  .post-input{
+    height: 75px;
+    padding: 0 25px;
+    background-color: #C9CFCC;
+    outline: none;
+    border: none;
+    font-size: 20px;
+  }
+  .post-button{
+    position: relative;
+    right: -80%;
+    max-width: 120px;
+    height: 25px;
+    background-color: #077396;
+    color: #fff;
+    border: none;
+  }
+
+  .profile__post-content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    padding-left: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
+  .post-item{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+  }
+  .post-item__image{
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    border: 2px solid #077396;
+  }

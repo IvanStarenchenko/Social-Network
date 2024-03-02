@@ -1,0 +1,35 @@
+.aside{
+    grid-area: aside;
+    padding: 45px 15px 15px 55px;
+    background-color: #077396;
+    border-radius: 10px;
+    height: 350px;
+  }
+
+  .aside__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  
+  .aside__link{
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+  }
+  .aside__link::before{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 0;
+    height: 1px;
+    background-color: #00FFFF;
+    transition: all 0.3s ease 0s;
+  }
+  .aside__link:hover::before{
+   width: 100%;
+   left: 0;
+  }

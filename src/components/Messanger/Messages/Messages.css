@@ -1,0 +1,32 @@
+.messages{
+    margin-left: 35px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    border-bottom: 1px solid #c8afaf80;
+}
+.message{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.message__image{
+    width: 65px;
+    height: 65px;
+    background-color: #000;
+    border-radius: 50%;
+}
+.message__content{
+    display: flex;
+    row-gap: 10px;
+    flex-wrap: wrap;
+}
+.message__name{
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.message__name::after{
+content: ':';
+}

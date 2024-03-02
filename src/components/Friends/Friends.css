@@ -1,0 +1,95 @@
+.friends-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.friends__list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 45px;
+    padding-bottom: 25px;
+}
+
+.friend__item{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 150px;
+    cursor: pointer;
+    transition: padding-left 0.3s ease 0s;
+    min-width: 650px;
+}
+.friend__item:hover{
+    padding-left: 25px;
+}
+.friend__item::before{
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid #000;
+    min-width: 100%;
+    bottom: -20px;
+}
+.friend__avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.online{
+    color: green;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.offline{
+    color: grey;
+    letter-spacing: 3px;
+
+}
+.possible-friends{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.possible-friend__title{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.possible-friends__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 55px;
+}
+.possible-friend__item{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+   cursor: pointer;
+}
+.possible-friend__item p{
+    margin: 0;
+}
+.possible-friend__avatar{
+    width: 25px;
+    height: 25px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.possible-friend__description{
+display: flex;
+flex-direction: column;
+
+row-gap: 10px;
+}
+
+.possible-friend__name{
+    letter-spacing: 2px;
+}
+.possible-friend__title{
+    letter-spacing: 1.4px;
+
+}

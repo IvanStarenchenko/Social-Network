@@ -1,0 +1,75 @@
+
+  .header{
+    grid-area: header;
+    margin-top: 15px;
+  }
+  
+  .header__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .header__logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: brown;
+  }
+  
+  .header__list{
+    display: flex;
+    align-items: center;
+    column-gap: 35px;
+  }
+  .header__item{
+    position: relative;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  .header__item::before{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #00FFFF;
+    transition: all 0.3s ease 0s;
+  }
+  .header__item:hover::before{
+   width: 100%;
+   left: 0;
+  }
+  
+  .header__actions{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+  }
+  .header__actions  a{
+    padding: 7px 15px;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+    border: 2px solid #00FFFF ;
+  
+  }
+  .login{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+  }
+  .logout{
+    background-color: #00FFFF;
+  }
+  .create{
+    transition: background-color 0.3s ease 0s;
+  }
+  .create:hover{
+    background-color: #00FFFF;
+  }
+  .header-user-image{
+    width: 30px;
+    height: 30px;
+  }

@@ -1,0 +1,63 @@
+.user-info{
+    display: flex;
+    column-gap: 45px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.user-info__about{
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.profile__change-photo{
+  color: transparent;
+}
+input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 8%;
+  opacity: 0;
+  transition: opacity 0.2s ease 0s;
+}
+.profile__image-block{
+  position: relative;
+  cursor: pointer;
+}
+.user-info__main{
+  display: flex;
+  flex-direction: column;
+}
+.profile__image-block:hover input{
+  opacity: 1;
+}
+
+.user-info__image{
+  width: 150px;
+  height: 150px;
+  
+  background-color: orange;
+}
+.user-info__aboutme{
+  display: flex;
+  column-gap: 10px;
+}
+.user-info__name{
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  margin-bottom: 15px;
+}
+.user-info__details{
+  display: flex;
+  column-gap: 10px;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+}
+
+.looking{
+  width: 150px;
+  height: 150px;
+}
+.editMode{
+  width: 70px;
+  height: 40px;
+}

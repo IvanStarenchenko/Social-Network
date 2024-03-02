@@ -1,0 +1,22 @@
+.form-controll {
+width: 100%;
+}
+.error-message
+
+.error{
+    border: 2px solid red
+}
+
+.form-summury-errors{
+    border: 2px solid red;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 5px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+}
+span{
+    position: inline;
+    color:red;
+    font-weight: 600;
+}

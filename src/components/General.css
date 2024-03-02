@@ -1,0 +1,48 @@
+  h1 , h2 , h3 , h4{
+      font-size: inherit;
+      font-weight: inherit;
+    
+    }
+  span{
+    margin: 0;
+  }
+  
+  
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    list-style: none;
+  }
+
+button{
+  cursor: pointer;
+}
+  .app-wrapper{
+    display: grid;
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 250px 1fr;
+    padding: 0 140px;
+  
+    grid-gap: 50px;
+    grid-template-areas: 
+    "header header"
+    "aside main";
+  }
+ 
+  .main{
+    grid-area: main;
+  }
+
+  .id-item{
+    opacity: 0;
+    visibility: hidden;
+  }
+  input{
+    outline: none;
+  }
